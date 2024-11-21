@@ -10,7 +10,12 @@ export default function Home() {
           Hi, I’m Anirudh Chaudhary! This is where I showcase my work, share my thoughts, and more.
         </p>
       </header>
-
+      <Image
+        src="/Anirudh-2023-prof-photo.jpg"
+        alt="Me on a good day"
+        width={500}
+        height={300}
+      />
       {/* Main Content */}
       <main className="flex flex-col gap-8 items-center w-full max-w-3xl">
         <section className="w-full text-center">
